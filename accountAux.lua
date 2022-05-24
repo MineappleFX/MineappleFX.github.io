@@ -51,7 +51,7 @@ function createAccount()
     print()
     print("Choose your account password.")
     print("DO NOT USE A SENSITIVE PASSWORD, THEY ARE NOT ENCRYPTED")
-    print("I RECOMMAND YOU TO USE A PIN/SMALL PASSWORD")
+    print("I RECOMMEND YOU TO USE A PIN/SMALL PASSWORD")
     local password = io.read()
     while password == ""  or string.match(password, ";") do
         print("Your password cannot be empty or contain ';'")
@@ -63,7 +63,7 @@ function createAccount()
     else
         print("Account creation denied by the server")
         print("Server might be offline or account already registered")
-        print("Please try the account creation one more time WITH A DIFFERENT USERNAME. Otherwise contact PoroCoco#4636 on Discord")
+        print("Please try the account creation one more time WITH A DIFFERENT USERNAME.")
         return
     end
     local f = io.open(webIdPath,"w") -- writes the infos into the identification file
