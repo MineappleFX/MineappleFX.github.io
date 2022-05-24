@@ -3,7 +3,7 @@ local internet = require("internet")
 local filesystem = require("filesystem")
 local shell = require("shell")
 
-local urlAccount = "http://217.238.235.143:80/accountCreation"
+local urlAccount = "http://amongus.tk/accountCreation"
 local webIdPath = "/home/myaenetwork/webIdentification.txt"
 local workDirectory = "/home/myaenetwork/"
 local newDirectory = "/home/myaenetwork"
