@@ -20,8 +20,8 @@ local working = true
 local webIdPath = "home/myaenetwork/webIdentification.txt"
 local workingDirectory = "home/myaenetwork/"
 
-local urlSendItemData = "http://amongus.tk/inputItemData"
-local pingUrl = "http://amongus.tk/toPing"
+local urlSendItemData = "http://217.238.235.143:80/inputItemData"
+local pingUrl = "http://217.238.235.143:80/toPing"
 local urlSendCraftingStatus = "http://amongus.tk/inputCraftingStatus"
 
 local issuedCraftingRequest = {}
