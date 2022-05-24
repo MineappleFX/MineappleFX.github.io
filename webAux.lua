@@ -20,9 +20,9 @@ local working = true
 local webIdPath = "home/myaenetwork/webIdentification.txt"
 local workingDirectory = "home/myaenetwork/"
 
-local urlSendItemData = "http://myaenetwork.ovh/inputItemData"
-local pingUrl = "http://myaenetwork.ovh/toPing"
-local urlSendCraftingStatus = "http://myaenetwork.ovh/inputCraftingStatus"
+local urlSendItemData = "http://amongus.tk/inputItemData"
+local pingUrl = "http://amongus.tk/toPing"
+local urlSendCraftingStatus = "http://amongus.tk/inputCraftingStatus"
 
 local issuedCraftingRequest = {}
 local maxPing = 1000
