@@ -3,7 +3,7 @@ local internet = require("internet")
 local filesystem = require("filesystem")
 local shell = require("shell")
 
-local urlAccount = "http://mineapple.de/accountCreation"
+local urlAccount = "http://mineapple.de:69/accountCreation"
 local webIdPath = "/home/myaenetwork/webIdentification.txt"
 local workDirectory = "/home/myaenetwork/"
 local newDirectory = "/home/myaenetwork"
