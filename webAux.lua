@@ -20,9 +20,9 @@ local working = true
 local webIdPath = "home/myaenetwork/webIdentification.txt"
 local workingDirectory = "home/myaenetwork/"
 
-local urlSendItemData = "http://mineapple.de/inputItemData"
-local pingUrl = "http://amongus.tk/toPing"
-local urlSendCraftingStatus = "http://mineapple.de/inputCraftingStatus"
+local urlSendItemData = "http://mineapple.de:69/inputItemData"
+local pingUrl = "http://mineapple.de:69/toPing"
+local urlSendCraftingStatus = "http://mineapple.de:69/inputCraftingStatus"
 
 local issuedCraftingRequest = {}
 local maxPing = 1000
